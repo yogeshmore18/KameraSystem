@@ -2,6 +2,10 @@
   "name": "stlreader",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+  "node": "20.x",
+  "npm": "10.x"
+},
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -62,11 +66,6 @@
   },
   "devDependencies": {
     "vite": "^5.1.4"
-  },
-  "engines": {
-    "node": "20.x",
-    "npm": "10.x"
   }
-  
   
 }
